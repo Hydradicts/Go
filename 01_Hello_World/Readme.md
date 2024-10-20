@@ -3,6 +3,6 @@
 
 
 ## Hello World
-Fmt package is needed
-FMT gives us Println option
+Fmt package is needed \n
+FMT gives us Println option \n
 FMT collection will follow shortly

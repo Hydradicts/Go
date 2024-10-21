@@ -5,7 +5,16 @@
 ## Hello World
 Fmt package is needed, <br>
 FMT gives us Println option, <br>
-FMT collection will follow shortly
+And this should look like this:
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Something")
+}
+```
 ## FMT package
 func Append(b []byte, a ...any) []byte <br>
 func Appendf(b []byte, format string, a ...any) []byte <br>

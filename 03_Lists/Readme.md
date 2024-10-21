@@ -21,13 +21,13 @@ gets the first element
 gets the next element or nil
 ### list.Prev()
 gets the previous element or nil
-### list.MoveAfter(e)
+### list.MoveAfter(e, element)
 moves to the element after given element
-### list.MoveBefore()
+### list.MoveBefore(e, element)
 moves to the element before given element
 ### list.Len()
 returns the length of the given list
-### list.MoveBack()
+### list.MoveBack(e)
 moves the given element to the end
-### list.MoveFront()
+### list.MoveFront(e)
 moves the given given element to the front

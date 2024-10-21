@@ -47,7 +47,7 @@ type State <br>
 type Stringer <br>
 
 ## Use of a few FMT Packages
-
+### Append
 ```go
 package main
 

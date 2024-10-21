@@ -45,3 +45,23 @@ type ScanState <br>
 type Scanner <br>
 type State <br>
 type Stringer <br>
+
+## Use of a few FMT Packages
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+
+	slice := []int{1, 2, 3, 4, 5}
+	slice = append(slice, 10)
+	fmt.Println(slice)
+}
+
+```
+
+```
+[1 2 3 4 5 10]
+```

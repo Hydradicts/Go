@@ -65,3 +65,15 @@ func main() {
 ```
 [1 2 3 4 5 10]
 ```
+### Scan
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Please give in your age")
+	var a int
+	fmt.Scan(&a)
+}
+```

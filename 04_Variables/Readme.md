@@ -53,6 +53,7 @@ var name string
 		</tr>
 	</tbody>
 </table>
+
 ## Arrays
 Arrays are declared the same way variable with specific datatypes are declared
 ```go

@@ -1,11 +1,20 @@
-# Part 01 Hello World
+# Part 01 Hello World 🌎
 
 
 
 ## Hello World
 Fmt package is needed, <br>
 FMT gives us Println option, <br>
-FMT collection will follow shortly
+And this should look like this:
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Something")
+}
+```
 ## FMT package
 func Append(b []byte, a ...any) []byte <br>
 func Appendf(b []byte, format string, a ...any) []byte <br>
@@ -36,3 +45,35 @@ type ScanState <br>
 type Scanner <br>
 type State <br>
 type Stringer <br>
+
+## Use of a few FMT Packages
+### Append()
+```go
+package main
+
+import "fmt"
+
+func main() {
+
+	slice := []int{1, 2, 3, 4, 5}
+	slice = append(slice, 10)
+	fmt.Println(slice)
+}
+
+```
+
+```
+[1 2 3 4 5 10]
+```
+### Scan
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Please give in your age")
+	var a int
+	fmt.Scan(&a)
+}
+```

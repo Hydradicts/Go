@@ -11,7 +11,7 @@ Here is an example of a for loop
 ## While loop
 While loops do exist, but not with the while keyword:
 ```go
-for i<5{
+	for i<5{
 		fmt.Println("This loop is " + strconv.Itoa(i) +" out of 5")
 		i++
 	}

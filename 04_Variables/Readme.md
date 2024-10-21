@@ -2,9 +2,18 @@
 
 ## Variables
 A variable is declared by := as seen in Chapter 03_Lists
-The variable can take all forms, as there is no type declaration.
+Type declaration isn't needed with :=
 ```go
 name := "John"
+```
+But there can be a variable typs such as
+```go
+var name string
+```
+## Arrays
+Arrays are declared the same way variable with specific datatypes are declared
+```go
+var myarray []int
 ```
 ## List types
 In lists types like int or string don't exist.
